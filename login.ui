@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>496</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>251</width>
+      <height>450</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>250</width>
+       <height>450</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>SizeAllCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 201, 255, 255), stop:1 rgba(200, 251, 255, 255));
+border-top-left-radius:50px;
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Logo">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>120</y>
+       <width>251</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+background-color: none;
+border:0px solid;
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="res.qrc">
+       <normaloff>:/icon/icon/2821656.png</normaloff>:/icon/icon/2821656.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>160</width>
+       <height>160</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="opn_login">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>370</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+color: black;
+border:none;
+border-bottom:2px solid #00aaff;</string>
+     </property>
+     <property name="text">
+      <string>Open Login</string>
+     </property>
+     <property name="icon">
+      <iconset resource="res.qrc">
+       <normaloff>:/icon/icon/right-arrow.png</normaloff>:/icon/icon/right-arrow.png</iconset>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_4">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>20</y>
+      <width>250</width>
+      <height>450</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QFrame" name="frame_3">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>0</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+border-bottom-right-radius:50px;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QFrame" name="frame_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>250</width>
+          <height>450</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>250</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-bottom-right-radius:50px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>50</y>
+           <width>251</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 14pt &quot;Ebrima&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Login</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="Host">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>130</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border:none;
+border-bottom: 2px solid #2fd5ff;
+padding-bottom:1px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>Host</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="Port">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>180</y>
+           <width>71</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border:none;
+border-bottom: 2px solid #2fd5ff;
+padding-bottom:1px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>Port</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="Username">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>250</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border:none;
+border-bottom: 2px solid #2fd5ff;
+padding-bottom:1px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>Username</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="Password">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>300</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border:none;
+border-bottom: 2px solid #2fd5ff;
+padding-bottom:1px;</string>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::Password</enum>
+         </property>
+         <property name="placeholderText">
+          <string>Password</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="login">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>360</y>
+           <width>91</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 201, 255, 255), stop:1 rgba(200, 251, 255, 255));
+color: rgb(255, 255, 255);
+border:none;
+border-bottom:2px solid rgb(0, 170, 255);
+
+</string>
+         </property>
+         <property name="text">
+          <string>Login</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="close_1">
+         <property name="geometry">
+          <rect>
+           <x>210</x>
+           <y>0</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(243, 28, 0);
+color: rgb(255, 255, 255);
+border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/icon/icon/closeAsset 43.png</normaloff>:/icon/icon/closeAsset 43.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>13</width>
+           <height>13</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="min">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>0</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(18, 205, 255);
+color: rgb(255, 255, 255);
+border:none;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/icon/icon/hideAsset 53.png</normaloff>:/icon/icon/hideAsset 53.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>13</width>
+           <height>13</height>
+          </size>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
